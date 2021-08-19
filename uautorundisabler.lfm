@@ -1,0 +1,31 @@
+object frmAutorunDisabler: TfrmAutorunDisabler
+  Left = 256
+  Height = 119
+  Top = 145
+  Width = 168
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Autorun Disabler'
+  ClientHeight = 119
+  ClientWidth = 168
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object btnDisabler: TButton
+    Left = 24
+    Height = 61
+    Top = 8
+    Width = 123
+    Caption = 'Disable'
+    OnClick = btnDisablerClick
+    TabOrder = 0
+  end
+  object btnEnabler: TButton
+    Left = 48
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Enable'
+    OnClick = btnEnablerClick
+    TabOrder = 1
+  end
+end
